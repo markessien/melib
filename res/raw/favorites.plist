@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TextColor</key>
+	<string>Black</string>
+	<key>TransparentTable</key>
+	<string>YES</string>
+	<key>AllowEditing</key>
+	<string>YES</string>
+	<key>FontSize</key>
+	<string>14</string>
+	<key>Background</key>
+	<string>FavPageBackground.png</string>
+	<key>Top</key>
+	<string>90</string>
+	<key>Left</key>
+	<string>32</string>
+	<key>Height</key>
+	<string>310</string>
+	<key>Width</key>
+	<string>255</string>
+	<key>Style</key>
+	<string>Plain</string>
+	<key>ItemsInTable</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>Menu</string>
+			<key>ItemsInCategory</key>
+			<array/>
+		</dict>
+	</array>
+</dict>
+</plist>

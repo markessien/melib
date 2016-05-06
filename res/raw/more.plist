@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UpdateURL</key>
+	<string>http://control.puffbirds.tv/external/update.php</string>
+	<key>Style</key>
+	<string>Grouped</string>
+	<key>Background</key>
+	<string>morepagebackground.png</string>
+	<key>ItemsInTable</key>
+	<array>
+		<dict>
+			<key>ItemsInCategory</key>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Add To Favorites</string>
+					<key>Icon</key>
+					<string>image1.png</string>
+					<key>Height</key>
+					<string>48</string>
+					<key>Action</key>
+					<string>AddToFavorites</string>
+				</dict> 
+				<dict>
+					<key>Title</key>
+					<string>Save to Photo Library</string>
+					<key>Icon</key>
+					<string>image1.png</string>
+					<key>Height</key>
+					<string>48</string>
+					<key>Action</key>
+					<string>SaveToPhotos</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Actions</string>
+			<key>Type</key>
+			<string>Actions</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Those who liked this also liked</string>
+			<key>Type</key>
+			<string>AppListing</string>
+			<key>ItemsInCategory</key>
+			<array/>
+		</dict>
+	</array>
+</dict>
+</plist>

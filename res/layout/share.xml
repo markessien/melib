@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/morepagebackground"
+    
+    >     
+    
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="25dp"
+    >     
+		<ImageView android:id="@+id/ImageView01" 
+				   android:layout_width="wrap_content" 
+				   android:layout_height="wrap_content"
+				   android:layout_marginTop="0dp"
+				   android:layout_marginLeft="10dp"
+				   android:background="@drawable/mail_forward_48">
+		</ImageView>
+		
+		<TextView android:text="Send to your friends..." 
+				  android:id="@+id/TextView01" 
+				  android:layout_marginTop="0dp"
+				  android:layout_marginLeft="5dp"
+				  android:layout_width="wrap_content" 
+				  android:layout_height="wrap_content"
+				  android:textStyle="bold"
+				  android:textColor="#ffffff"
+				  android:textSize="14dp"
+				  >
+		</TextView>
+</LinearLayout>
+
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp" 
+    android:layout_marginRight="30dp" >
+         
+		<TextView android:text="Hi" 
+					android:id="@+id/hi_text" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="10dp" 
+					android:textColor="#ffffff" 
+					android:layout_marginTop="0dp"
+					/>
+		
+		<EditText android:id="@+id/persons_name" 
+					android:layout_height="16pt"
+					android:lines="1" 
+					android:layout_marginLeft="10dp" 
+					android:hint="persons name" 
+					android:textSize="5pt" 
+					android:layout_width="0dp"
+					android:layout_weight="1"
+					/>
+					
+		<TextView 	android:id="@+id/TextView02" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:layout_toRightOf="@+id/persons_name" 
+					android:text="/" 
+					android:textColor="#ffffff" 
+					android:layout_marginTop="0dp"
+					android:layout_marginLeft="4dp" >
+		</TextView>
+		
+		<EditText 	
+					android:id="@+id/person_email" 
+					android:hint="persons email" 
+					android:lines="1" 
+					android:layout_width="0dp"
+					android:layout_marginLeft="4dp"
+					android:layout_marginRight="0dp"
+					android:layout_weight="1"
+					android:inputType="textEmailAddress" 
+					android:layout_height="16pt"
+					android:textSize="5pt">
+		</EditText>
+
+</LinearLayout>
+
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginRight="30dp" >
+    
+		<EditText  	android:lines="1" 
+					android:layout_height="16pt" 
+					android:textSize="5pt" 
+					android:layout_weight="1"
+					android:layout_width="0dp" 
+					android:hint="your name" 
+					android:id="@+id/your_name" 
+					android:inputType="text" 
+					android:layout_below="@+id/persons_name">
+		</EditText>
+		
+		<TextView 	android:id="@+id/TextView02" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:layout_toRightOf="@+id/persons_name" 
+					android:text="/" 
+					android:textColor="#ffffff" 
+					android:layout_marginTop="0dp"
+					android:layout_marginLeft="4dp" >
+		</TextView>
+		
+		
+		<EditText  	android:lines="1" 
+					android:layout_height="16pt" 
+					android:layout_weight="1"
+					android:textSize="5pt" 
+					android:inputType="text" 
+					android:layout_marginTop="0dp" 
+					android:hint="your email" 
+					android:layout_marginLeft="4dp"
+					android:id="@+id/your_email" 
+					android:layout_width="0dp">
+		</EditText>
+		
+
+		
+</LinearLayout>
+
+
+<TextView 	android:layout_width="wrap_content" 
+			android:layout_below="@+id/persons_name" 
+			android:layout_height="wrap_content" 
+			android:layout_toRightOf="@+id/your_name" 
+			android:id="@+id/send_text" 
+			android:textColor="#ffffff" 
+			android:text="sent you an item!" 
+			android:layout_marginTop="10dp" 
+			android:layout_marginLeft="30dp"
+			android:textSize="8pt" ></TextView>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right" 
+    android:layout_marginRight="20dp">			
+
+		<Button
+				android:id="@+id/btn_send_pic"  
+				android:text="Send" 
+				android:layout_width="30pt" 
+				android:layout_height="16pt" 
+				android:layout_marginTop="8dp"
+				>
+		</Button>
+</LinearLayout>
+
+</LinearLayout>
+
+
+
